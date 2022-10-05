@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#342b4a">
+  <meta name="msapplication-TileColor" content="#342b4a">
+  <meta name="theme-color" content="#342b4a">
+  <title>GOLDEN AGGS</title>
+</head>
+
+<body>
+  <div class="wraper">
+    <header class="header">
+      <video class="header__bg-video" src="img/header-bgv.mp4" autoplay muted loop></video>
+      <div class="container">
+        <div class="header__inner">
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#team">team</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#order">order</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#offer">offers</a></li>
+              <li class="header__menu-item">
+                <img class="header__logo header__logo--one" src="img/logo.svg" alt="Logo">
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#menu">menu</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#events">events</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#contacts">contacts</a></li>
+            </ul>
+            <img class="header__logo header__logo--two" src="img/logo.svg" alt="Logo">
+            <button class="header__burger">
+              <span class="header__burger-span header__burger-span--one"></span>
+              <span class="header__burger-span header__burger-span--two"></span>
+              <span class="header__burger-span header__burger-span--three"></span>
+            </button>
+          </nav>
+          <div class="header__content-box">
+            <div class="header__schedule">Mon - Fri: 8 - 22, Sat - Sun: 9 - 24</div>
+            <div class="header__content">
+              <h3 class="header__subtitle">restaurant</h3>
+              <h1 class="header__title">GOLDEN EGG</h1>
+              <div class="header__btn-box">
+                <a class="header__btn header__btn--one" href="#order">order</a>
+                <a class="header__btn header__btn--two" href="#about">about</a>
+              </div>
+              <a class="header__down-arrow" href="#about">
+                <svg class="down-arrow-svg" width="62" height="62" viewbox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="31" cy="31" r="30" stroke="white" stroke-opacity="0.2"/>
+                  <ellipse cx="31" cy="31" rx="20" ry="20" fill="white"/>
+                  <path d="M30.3359 33.2891C30.6875 33.6406 31.2734 33.6406 31.625 33.2891L36.9375 27.9766C37.3281 27.5859 37.3281 27 36.9375 26.6484L36.0781 25.75C35.6875 25.3984 35.1016 25.3984 34.75 25.75L30.9609 29.5391L27.2109 25.75C26.8594 25.3984 26.2734 25.3984 25.8828 25.75L25.0234 26.6484C24.6328 27 24.6328 27.5859 25.0234 27.9766L30.3359 33.2891Z" fill="#333333"/>
+                </svg>
+              </a>
+            </div>
+            <div class="header__social">
+              <a class="header__social-link" href="https://www.facebook.com" target="_blank">
+                <svg class="header__social-svg" width="62" height="62" viewbox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="31" cy="31" r="30" stroke="white" stroke-opacity="0.2"/>
+                  <path d="M28.8516 41.9839V33.0386H25.8438V29.4839H28.8516V26.6714C28.8516 25.187 29.2682 24.0412 30.1016 23.2339C30.9349 22.4006 32.0417 21.9839 33.4219 21.9839C34.5417 21.9839 35.4531 22.036 36.1562 22.1401V25.3042H34.2812C33.5781 25.3042 33.0964 25.4604 32.8359 25.7729C32.6276 26.0334 32.5234 26.45 32.5234 27.0229V29.4839H35.8438L35.375 33.0386H32.5234V41.9839H28.8516Z" fill="white"/>
+                </svg>
+              </a>
+              <a class="header__social-link" href="https://twitter.com" target="_blank">
+                <svg class="header__social-svg" width="62" height="62" viewbox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="31" cy="31" r="30" stroke="white" stroke-opacity="0.2"/>
+                  <path d="M38.9297 27.9214C38.9557 28.0256 38.9688 28.1948 38.9688 28.4292C38.9688 30.3042 38.513 32.1141 37.6016 33.8589C36.6641 35.7078 35.349 37.1792 33.6562 38.2729C31.8073 39.4969 29.6849 40.1089 27.2891 40.1089C24.9974 40.1089 22.901 39.4969 21 38.2729C21.2865 38.299 21.612 38.312 21.9766 38.312C23.8776 38.312 25.5833 37.7261 27.0938 36.5542C26.1823 36.5542 25.375 36.2938 24.6719 35.7729C23.9948 35.2261 23.526 34.549 23.2656 33.7417C23.526 33.7677 23.7734 33.7808 24.0078 33.7808C24.3724 33.7808 24.737 33.7417 25.1016 33.6636C24.1641 33.4552 23.3828 32.9735 22.7578 32.2183C22.1328 31.4631 21.8203 30.6037 21.8203 29.6401V29.562C22.3932 29.9006 23.0052 30.0828 23.6562 30.1089C23.1094 29.7183 22.6667 29.2235 22.3281 28.6245C21.9896 28.0256 21.8203 27.3745 21.8203 26.6714C21.8203 25.9422 22.0156 25.2521 22.4062 24.6011C23.4219 25.8771 24.6589 26.8927 26.1172 27.6479C27.6016 28.4032 29.1771 28.8198 30.8438 28.8979C30.7917 28.5854 30.7656 28.2729 30.7656 27.9604C30.7656 27.2313 30.9479 26.5542 31.3125 25.9292C31.6771 25.2782 32.1719 24.7703 32.7969 24.4058C33.4219 24.0412 34.099 23.8589 34.8281 23.8589C35.4271 23.8589 35.974 23.9761 36.4688 24.2104C36.9896 24.4448 37.4453 24.7573 37.8359 25.1479C38.7734 24.9657 39.6458 24.6401 40.4531 24.1714C40.1406 25.1349 39.5417 25.8901 38.6562 26.437C39.4375 26.3328 40.2188 26.1115 41 25.7729C40.4271 26.6063 39.737 27.3224 38.9297 27.9214Z" fill="white"/>
+                </svg>
+              </a>
+              <a class="header__social-link" href="https://www.instagram.com" target="_blank">
+                <svg class="header__social-svg" width="62" height="62" viewbox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="31" cy="31" r="30" stroke="white" stroke-opacity="0.2"/>
+                  <path d="M31 27.4917C30.1927 27.4917 29.4375 27.7 28.7344 28.1167C28.0573 28.5073 27.5104 29.0542 27.0938 29.7573C26.7031 30.4344 26.5078 31.1766 26.5078 31.9839C26.5078 32.7912 26.7031 33.5464 27.0938 34.2495C27.5104 34.9266 28.0573 35.4735 28.7344 35.8901C29.4375 36.2808 30.1927 36.4761 31 36.4761C31.8073 36.4761 32.5495 36.2808 33.2266 35.8901C33.9297 35.4735 34.4766 34.9266 34.8672 34.2495C35.2839 33.5464 35.4922 32.7912 35.4922 31.9839C35.4922 31.1766 35.2839 30.4344 34.8672 29.7573C34.4766 29.0542 33.9297 28.5073 33.2266 28.1167C32.5495 27.7 31.8073 27.4917 31 27.4917ZM31 34.9136C30.1927 34.9136 29.5026 34.6271 28.9297 34.0542C28.3568 33.4813 28.0703 32.7912 28.0703 31.9839C28.0703 31.1766 28.3568 30.4865 28.9297 29.9136C29.5026 29.3407 30.1927 29.0542 31 29.0542C31.8073 29.0542 32.4974 29.3407 33.0703 29.9136C33.6432 30.4865 33.9297 31.1766 33.9297 31.9839C33.9297 32.7912 33.6432 33.4813 33.0703 34.0542C32.4974 34.6271 31.8073 34.9136 31 34.9136ZM36.7422 27.2964C36.7161 27.5828 36.599 27.8302 36.3906 28.0386C36.2083 28.2469 35.974 28.3511 35.6875 28.3511C35.401 28.3511 35.1536 28.2469 34.9453 28.0386C34.737 27.8302 34.6328 27.5828 34.6328 27.2964C34.6328 27.0099 34.737 26.7625 34.9453 26.5542C35.1536 26.3459 35.401 26.2417 35.6875 26.2417C35.974 26.2417 36.2214 26.3459 36.4297 26.5542C36.638 26.7625 36.7422 27.0099 36.7422 27.2964ZM39.7109 28.3511C39.6589 27.5959 39.5417 26.9448 39.3594 26.3979C39.125 25.7469 38.7604 25.187 38.2656 24.7183C37.7969 24.2235 37.237 23.8589 36.5859 23.6245C36.0391 23.4422 35.388 23.3381 34.6328 23.312C33.9036 23.2599 32.6927 23.2339 31 23.2339C29.3073 23.2339 28.0833 23.2599 27.3281 23.312C26.599 23.3381 25.9609 23.4422 25.4141 23.6245C24.763 23.8589 24.1901 24.2235 23.6953 24.7183C23.2266 25.187 22.875 25.7469 22.6406 26.3979C22.4583 26.9448 22.3411 27.5959 22.2891 28.3511C22.263 29.0802 22.25 30.2912 22.25 31.9839C22.25 33.6766 22.263 34.9006 22.2891 35.6558C22.3411 36.3849 22.4583 37.0229 22.6406 37.5698C22.875 38.2209 23.2266 38.7938 23.6953 39.2886C24.1901 39.7573 24.763 40.0959 25.4141 40.3042C25.9609 40.5125 26.599 40.6297 27.3281 40.6558C28.0833 40.7078 29.3073 40.7339 31 40.7339C32.6927 40.7339 33.9036 40.7078 34.6328 40.6558C35.388 40.6297 36.0391 40.5256 36.5859 40.3433C37.237 40.1089 37.7969 39.7573 38.2656 39.2886C38.7604 38.7938 39.125 38.2209 39.3594 37.5698C39.5417 37.0229 39.6458 36.3849 39.6719 35.6558C39.724 34.9006 39.75 33.6766 39.75 31.9839C39.75 30.2912 39.737 29.0802 39.7109 28.3511ZM37.8359 37.1401C37.5234 37.9214 36.9635 38.4813 36.1562 38.8198C35.7396 38.9761 35.0365 39.0802 34.0469 39.1323C33.5 39.1584 32.6927 39.1714 31.625 39.1714H30.375C29.3333 39.1714 28.526 39.1584 27.9531 39.1323C26.9896 39.0802 26.2865 38.9761 25.8438 38.8198C25.0625 38.5073 24.5026 37.9474 24.1641 37.1401C24.0078 36.6974 23.9036 35.9943 23.8516 35.0308C23.8255 34.4578 23.8125 33.6506 23.8125 32.6089V31.3589C23.8125 30.3172 23.8255 29.5099 23.8516 28.937C23.9036 27.9474 24.0078 27.2443 24.1641 26.8276C24.4766 26.0203 25.0365 25.4604 25.8438 25.1479C26.2865 24.9917 26.9896 24.8875 27.9531 24.8354C28.526 24.8094 29.3333 24.7964 30.375 24.7964H31.625C32.6667 24.7964 33.474 24.8094 34.0469 24.8354C35.0365 24.8875 35.7396 24.9917 36.1562 25.1479C36.9635 25.4604 37.5234 26.0203 37.8359 26.8276C37.9922 27.2443 38.0964 27.9474 38.1484 28.937C38.1745 29.4839 38.1875 30.2912 38.1875 31.3589V32.6089C38.1875 33.6506 38.1745 34.4578 38.1484 35.0308C38.0964 35.9943 37.9922 36.6974 37.8359 37.1401Z" fill="white"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__content">
+              <h2 class="title about__title">about the restauraunt</h2>
+              <div class="about__text-box">
+                <p class="bold-text about__text text">
+                  Magical atmosphere, impeccable service, exquisite interior and, most
+                  most importantly, the richest selection of delicious dishes of excellent quality - these are the
+                  characteristics
+                  attract guests to our restaurant
+                </p>
+                <p class="about__text text">
+                  The waiters of this establishment know all the subtleties of cooking,
+                  they will suggest to the guests the most suitable dishes for them.
+                  Regular customers are well known here, skillfully catering to their tastes.
+                </p>
+                <p class="about__text text">
+                  The restaurant is ideally complemented by a cozy coffee shop located on the ground floor.
+                  A cup of amazing coffee and sweets from a local pastry chef will energize
+                  you with cheerfulness and positive energy.
+                </p>
+              </div>
+            </div>
+            <div class="about__img-box">
+              <img class="about__img" src="img/about-img.jpg" alt="Restaurant">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team" id="team">
+        <video class="team__bg-video" src="img/team-bgv.mp4" autoplay muted loop></video>
+        <h3 class="team__subtitle">our team</h3>
+        <div class="container">
+
+          <div class="swiper-container team-slider">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide team__inner">
+                <div class="team__img-box">
+                  <img class="team__img" src="img/team-img1.jpg" alt="Our team">
+                  <div class="circle"></div>
+                </div>
+                <div class="team__content">
+                  <h2 class="title team__title">our chef</h2>
+                  <div class="team__text-box">
+                    <p class="bold-text team__text text">
+                      Our highly qualified chef is responsible for the selection of products
+                      and the preparation of delicious dishes. Dishes in his performance
+                      turn into real masterpieces. No one will remain indifferent
+                      to such an unsurpassed combination.
+                    </p>
+                    <p class="team__text text">
+                      With our work we want to please each of our visitors.
+                      We guarantee all customers that the time spent in our establishment
+                      will be distinguished by special warmth and exquisite taste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide team__inner">
+                <div class="team__img-box">
+                  <img class="team__img" src="img/team-img2.jpg" alt="Our team">
+                  <div class="circle"></div>
+                </div>
+                <div class="team__content">
+                  <h2 class="title team__title">restaurant manager</h2>
+                  <div class="team__text-box">
+                    <p class="bold-text team__text text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur totam tempore placeat impedit necessitatibus
+                       quam unde error assumenda itaque at delectus reprehenderit
+                        distinctio, eveniet excepturi alias sint! Autem eaque nulla. 
+                    </p> 
+                    <p class="team__text text">
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                   Totam qui id alias animi blanditiis quidem, repudiandae natus
+                    reprehenderit deleniti, delectus maiores at minima dignissimos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide team__inner">
+                <div class="team__img-box">
+                  <img class="team__img" src="img/team-img3.jpg" alt="Our team">
+                  <div class="circle"></div>
+                </div>
+                <div class="team__content">
+                  <h2 class="title team__title">our waiters</h2>
+                  <div class="team__text-box">
+                    <p class="bold-text team__text text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                       Quis maiores esse maxime officia fugiat assumenda.
+                        Dolores similique aspernatur sed ipsum expedita officiis 
+                        fugit deleniti ducimus. Reprehenderit maiores id optio voluptate.
+                    </p>
+                    <p class="team__text text">
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                     Nihil possimus exercitationem, eaque recusandae, commodi 
+                     voluptates placeat quas ipsum, rem mollitia enim! Facilis .
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide team__inner">
+                <div class="team__img-box">
+                  <img class="team__img" src="img/team-img4.jpg" alt="Our team">
+                  <div class="circle"></div>
+                </div>
+                <div class="team__content">
+                  <h2 class="title team__title">our barista</h2>
+                  <div class="team__text-box">
+                    <p class="bold-text team__text text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Animi voluptatum molestiae nesciunt quidem dolores unde maxime.
+                    repudiandae eaque ducimus veniam. Aliquid commodi obcaecati in!
+                     Aut magnam qui ratione voluptatibus voluptate quo magni itaque veritatis harum!
+                    </p>
+                    <p class="team__text text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Inventore porro ducimus alias autem, laudantium sit.
+                   eligendi necessitatibus laborum et corrupti.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination slider-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="order" id="order" data-popup="parent">
+        <div class="container">
+          <div class="order__inner">
+
+            <div class="order__form-box">
+              <h2 class="title order__title"> book a table</h2>
+
+              <form class="form" id="order-form" action="#">
+                <input class="form__input order__input input-name" type="text" placeholder="Name">
+                <input class="form__input order__input input-email" type="email" name="email" placeholder="Email">
+                <input class="form__input order__input input-phone" type="tel" data-tel="input" placeholder="Phone number">
+                <div class="form__select">
+                  <select class="order__select select-people" name="people">
+                    <option value="">Number of people</option>
+                    <option value="1-2">1-2</option>
+                    <option value="2-5">2-5</option>
+                    <option value="5-10">5-10</option>
+                    <option value="10-40">10-40</option>
+                    <option value="40-100">40-100</option>
+                  </select>
+                </div>
+                <input class="form__input order__input input-date" type="date" placeholder="Date (date/month)">
+                <div class="form__select">
+                  <select class="order__select select-time">
+                    <option value="">Time</option>
+                    <option value="8:00-10:00">8:00-10:00</option>
+                    <option value="10:00-12:00">10:00-12:00</option>
+                    <option value="12:00-18:00">12:00-18:00</option>
+                    <option value="18:00-20:00">18:00-20:00</option>
+                    <option value="20:00-23:00">20:00-23:00</option>
+                  </select>
+                </div>
+                <button class="form__btn" type="submit">place order</button>
+              </form>
+
+            </div>
+            <div class="order__img-box">
+              <img class="order__img" src="img/order-img.jpg" alt="Our team">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="order__contacts">
+            Mon - Fri: <b>8 - 22,</b> Sat - Sun:<b> 9 - 23,</b> Телефон: <a href="tel:+380987291367" title="Call us"><b>+38098 729 13 67</b></a><b> / </b>
+            <a href="tel:+380974587879" title="Call us"><b>+38097 458 78 79</b></a>
+            <div class="order__popup phone-popup">call us</div>
+          </div>
+          <div class="order__contacts order__contacts--adapt">
+            Mon - Fri: <b>8 - 22,</b> Sat - Sun:<b> 9 - 23</b><br>Phone number:<a href="tel:+380987291367" title="Call us"><b>+38098 729 13 67</b></a><br>
+            Phone number:<a href="tel:+380974587879" title="Call us"><b>+38097 458 78 79</b></a>
+            <div class="order__popup-adapt phone-popup">call us</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer" id="offer">
+        <video class="offer__bg-video" src="img/offer-bgv.mp4" autoplay muted loop></video>
+        <h3 class="offer__subtitle">spesial offers</h3>
+        <div class="container">
+
+          <div class="swiper-container offer-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide offer__inner">
+                <div class="offer__img-box">
+                  <img class="offer__img" src="img/offer-img1.jpg" alt="offer image">
+                  <div class="circle"></div>
+                </div>
+                <div class="offer__content">
+                  <h2 class="title offer__title">GOLDEN EGG</h2>
+                  <div class="offer__text-box">
+                    <p class="bold-text offer__text text">
+                      Incredibly beautiful dessert Cake "Golden Egg".
+                      3D cake in the shape of an egg in a nest.
+                    </p>
+                    <p class="offer__text text">
+                      To find out what gold tastes like, we invite you to our restaurant.
+                      Belgian dark chocolate, Amaretto, mint-lemongrass mousse,
+                      carrot-passion fruit center - almost impossible to resist.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide offer__inner">
+                <div class="offer__img-box">
+                  <img class="offer__img" src="img/offer-img2.jpg" alt="offer image">
+                  <div class="circle"></div>
+                </div>
+                <div class="offer__content">
+                  <h2 class="title offer__title">duck tales</h2>
+                  <div class="offer__text-box">
+                    <p class="bold-text offer__text text">
+                      Duck legs are marinated with herbs, baked, and then stewed
+                      until the meat acquires a delicate texture.
+                    </p>
+                    <p class="offer__text text">
+                      Duck is served with red cabbage stewed in red wine,
+                      as well as mashed potatoes with cracklings.
+                      Farm duck breast is fried and served with demi-glace sauce and cherry coulis,
+                      as well as tender potato gratin baked with cream, thyme and parmesan cheese.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide offer__inner">
+                <div class="offer__img-box">
+                  <img class="offer__img" src="img/offer-img3.jpg" alt="offer image">
+                  <div class="circle"></div>
+                </div>
+                <div class="offer__content">
+                  <h2 class="title offer__title">delisious cake</h2>
+                  <div class="offer__text-box">
+                    <p class="bold-text offer__text text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Porro minus, rem repellat tempora incidunt deleniti?
+                    </p>
+                    <p class="offer__text text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque a ullam natus, veniam quasi modi quibusdam minus cumque
+                      aperiam corrupti corporis, tenetur excepturi similique maxime unde ex ducimus qui nihil.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide offer__inner">
+                <div class="offer__img-box">
+                  <img class="offer__img" src="img/offer-img4.jpg" alt="offer image">
+                  <div class="circle"></div>
+                </div>
+                <div class="offer__content">
+                  <h2 class="title offer__title">prosecco cocktail</h2>
+                  <div class="offer__text-box">
+                    <p class="bold-text offer__text text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Exercitationem repellat voluptates, cupiditate inventore sed facere animi molestiae tempora!
+                    </p>
+                    <p class="offer__text text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Magni, eius commodi quis consequatur at aliquid nam dolor sit quae recusandae!
+                    </p>
+                    <p class="offer__text text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Magni, eius commodi quis consequatur at aliquid nam dolor sit quae recusandae!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination slider-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <h2 class="title menu__title">our menu</h2>
+        <p class="bold-text text menu__text">
+          We invite you to enjoy the cuisine from professional chefs of the GOLDEN EGG restaurant!
+        </p>
+
+        <div class="tabs-container">
+          <ul class="tabs">
+            <li class="tabs__item active">snacks</li>
+            <li class="tabs__item">meat dishes</li>
+            <li class="tabs__item">salads</li>
+            <li class="tabs__item">desserts</li>
+            <li class="tabs__item">wines</li>
+            <li class="tabs__item">beverages</li>
+          </ul>
+        </div>
+
+        <div class="menu__sliders">
+          <!-- slider 1 -->
+          <div class="menu__slider-block show" id="snacks">
+            <div class="swiper-container menu__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-snacks1.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Amet tempore hic molestiae voluptatem corporis nostrum libero est! Et, natus hic.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-snacks2.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">Lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Doloribus est beatae vel dolorum odit ullam libero nemo itaque modi minima!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-snacks3.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                          . Repellat vitae cumque adipisci necessitatibus, harum modi
+                          corrupti reiciendis! Dolor, unde perspiciatis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-snacks4.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Dolorum natus saepe, deserunt vitae exercitationem maiores
+                          fugiat soluta laborum hic minus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-snacks5.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Velit debitis obcaecati quis, explicabo in facilis unde officiis natus placeat ex!
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-snacks6.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Est accusamus voluptatem eligendi aut molestias qui expedita?
+                          Error doloremque qui fugiat.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-snacks7.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Cum est reiciendis esse amet animi, velit adipisci a quos cupiditate nostrum!
+                          Cum est reiciendis esse amet animi, velit adipisci a quos cupiditate nostrum!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-snacks8.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Earum eveniet ducimus libero laudantium, nostrum vel quaerat quis vitae explicabo sed!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination menu-pagination"></div>
+            </div>
+          </div>
+          <!-- end of slider 1 -->
+          <!-- slider 2 -->
+          <div class="menu__slider-block" id="meat dishes">
+            <div class="swiper-container menu__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-meat1.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Eveniet, sit quis aspernatur eligendi eius iure a ad ut saepe suscipit!
+                        </p>
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Facere quae in asperiores consequatur molestias exercitationem.
+                        </p>
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Laudantium, nostrum quos. Deserunt cupiditate ea quo beatae ipsam, ad obcaecati vitae!
+                        </p>
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Eligendi dolorum dolore placeat doloremque beatae eaque et,
+                          facilis cumque quo fugiat? Repellendus sequi quae officia labore!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-meat2.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident,
+                          optio perspiciatis soluta quisquam illum et hic beatae. Aliquid, corrupti id.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-meat3.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Beatae necessitatibus reiciendis ullam natus soluta repudiandae
+                          reprehenderit accusamus fugiat tenetur iusto?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-meat4.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Nulla architecto adipisci minima facere quo eligendi molestiae
+                          animi modi, id sit aperiam illo delectus quibusdam corrupti dolorem
+                          tenetur consectetur? Nihil, iure.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-meat5.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Debitis totam harum repudiandae ut praesentium consectetur
+                          quaerat, est nulla qui consequuntur.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-meat6.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                          Ad provident numquam nihil similique esse, reprehenderit
+                          explicabo repellendus, praesentium quidem porro aperiam fugiat vel reiciendis doloribus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-meat7.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Delectus, cupiditate. Alias rem beatae ea mollitia
+                          voluptas magnam, similique consectetur incidunt!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-meat8.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Facere voluptate temporibus vitae ullam asperiores.
+                          Commodi voluptas at voluptatem quia nam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination menu-pagination"></div>
+            </div>
+          </div>
+          <!-- end of slider 2 -->
+          <!-- slider 3 -->
+          <div class="menu__slider-block" id="salads">
+            <div class="swiper-container menu__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-salads1.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                          Aliquam omnis rerum in blanditiis repellendus corrupti
+                          maxime accusantium magnam soluta porro.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-salads2.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Culpa facere suscipit error sequi incidunt dolores exercitationem,
+                          velit cumque expedita! Maiores.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-salads3.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Quas error consequatur repudiandae fugit ea sit reprehenderit,
+                          laboriosam asperiores qui possimus eius delectus saepe praesentium laborum!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-salads4.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Architecto error aut iusto odit eveniet laboriosam voluptate
+                          tempora quae, nobis reprehenderit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-salads5.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Nostrum esse perspiciatis ullam necessitatibus, tempore
+                          molestiae sit laudantium quibusdam soluta eum eaque, repellendus
+                          earum est illo explicabo nihil deserunt similique ipsa voluptatum culpa, nesciunt neque
+                          assumenda!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-salads6.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Reprehenderit tempora quas recusandae id similique ducimus
+                          perferendis officia voluptates dolor consequatur?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-salads7.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Veniam animi, neque maiores reiciendis officia alias
+                          voluptate in aspernatur omnis cupiditate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-salads8.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Molestias vero odit magnam distinctio deleniti natus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination menu-pagination"></div>
+            </div>
+          </div>
+          <!-- end of slider 3 -->
+          <!-- slider 4 -->
+          <div class="menu__slider-block" id="desserts">
+            <div class="swiper-container menu__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-desserts1.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Autem quasi consectetur quibusdam minus dolores cupiditate
+                          officia quia, quod temporibus nobis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-desserts2.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                          Expedita dolorem deserunt laborum, cum adipisci cumque.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-desserts3.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Ab possimus quo temporibus quia quos aliquam?
+                        </p>
+                        <p class="menu__description">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Ab possimus quo temporibus quia quos aliquam?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-desserts4.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Commodi molestias impedit illo incidunt libero fugiat vel
+                          consequuntur, sunt quas in.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-desserts5.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Quisquam exercitationem possimus vitae quasi ullam cum, et quos!
+                          Doloribus, cupiditate a.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-desserts6.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Magni inventore quibusdam facilis! Quasi excepturi
+                          laudantium eligendi aspernatur, amet, repellendus et perferendis
+                          facilis maxime architecto ex!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-desserts7.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Modi cumque magni atque fugit odio itaque porro molestias
+                          nisi ducimus sapiente!
+                        </p>
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Modi cumque magni atque fugit odio itaque porro molestias
+                          nisi ducimus sapiente!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-desserts8.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Non totam ullam dolores impedit itaque accusamus voluptatem
+                          provident eum obcaecati nobis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination menu-pagination"></div>
+            </div>
+          </div>
+          <!-- end of slider 4 -->
+          <!-- slider 5 -->
+          <div class="menu__slider-block" id="wines">
+            <div class="swiper-container menu__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-wine1.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Quas in repellendus blanditiis magni culpa debitis ullam possimus officia, neque veniam.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-wine2.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Molestiae quod, tenetur animi esse placeat odio consequatur quas sequi reiciendis repudiandae.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-wine3.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Facere necessitatibus rem molestias sequi voluptatibus.
+                          Odit asperiores laudantium et. Beatae sequi, inventore in provident
+                          nesciunt ducimus sed officia alias cupiditate praesentium.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-wine4.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Dolor saepe pariatur repellat, maiores modi nulla?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-wine5.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsumr</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Aliquam, quae exercitationem dignissimos cupiditate adipisci
+                          blanditiis architecto corrupti laboriosam harum minus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-wine6.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Iste rerum, aperiam error aut fugiat laboriosam incidunt
+                          nesciunt aspernatur minus tenetur.
+                        </p>
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Iste rerum, aperiam error aut fugiat laboriosam incidunt
+                          nesciunt aspernatur minus tenetur.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-wine7.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Fugiat dolorem eum, in fugit nisi tempora!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-wine8.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Impedit accusantium, quo facere earum nostrum expedita necessitatibus fugit quae blanditiis
+                          corporis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination menu-pagination"></div>
+            </div>
+          </div>
+          <!-- end of slider 5 -->
+          <!-- slider 6 -->
+          <div class="menu__slider-block" id="beverages">
+            <div class="swiper-container menu__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-beverages1.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Rerum consectetur sit doloribus autem amet provident, ab ut deleniti dolorum voluptate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-beverages2.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Asperiores odit numquam iste quod, excepturi illum veritatis
+                          modi, ad laudantium atque neque? Atque nulla provident cu mque!
+
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-beverages3.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          A recusandae illum repellendus harum quo laudantium temporibus quis porro alias quas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-beverages4.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Officia, iusto quod accusantium ullam aliquam repudiandae aperiam nulla eius ipsa dolor.
+                        </p>
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Officia, iusto quod accusantium ullam aliquam repudiandae aperiam nulla eius ipsa dolor.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-beverages5.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Necessitatibus quisquam consectetur placeat perferendis dolor vitae.
+                          Soluta rem voluptatum molestias quisquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-beverages6.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Impedit cupiditate incidunt blanditiis odit aperiam id?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-beverages7.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Unde velit ad illum consequuntur sapiente dolor quis doloribus, itaque dicta veritatis?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="menu__item">
+                    <div class="menu__img-box">
+                      <img class="menu__img" src="img/menu-beverages8.jpg" alt="menu image">
+                    </div>
+                    <div class="menu__content">
+                      <h4 class="menu__dish-name">lorem ipsum</h4>
+                      <h5 class="menu__dish-price">40 dollars</h5>
+                      <div class="menu__description-box">
+                        <p class="menu__description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Voluptates nemo dolores ab quo perspiciatis ullam est porro incidunt eum quaerat.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination menu-pagination"></div>
+            </div>
+          </div>
+          <!-- end of slider 6 -->
+
+        </div>
+      </section>
+
+      <section class="events" id="events">
+        <video class="events__bg-video" src="img/events-bgv.mp4" autoplay muted loop></video>
+        <h3 class="events__subtitle">private events</h3>
+        <div class="container">
+          <div class="events__inner">
+
+            <div class="events__img-box events__img-box--left">
+              <img class="events__img" src="img/events-img1.jpg" alt="wedding images">
+              <div class="circle"></div>
+              <h4 class="events__banquet"> wedding banquet</h4>
+            </div>
+
+
+
+            <div class="events__img-box events__img-box--right">
+              <img class="events__img" src="img/events-img2.jpg" alt="party images">
+              <div class="circle"></div>
+              <h4 class="events__party"> corporate parties</h4>
+            </div>
+
+
+          </div>
+          <div class="events__contacts">
+            For private events, call: <a href="tel:+380987291367">+38098 729 13 67</a> / <a href="tel:+380974587879">+38097 458 78 79</a> or use the contact form
+            <div class="events__popup phone-popup">call us</div>
+          </div>
+          <div class="events__contacts-adapt">
+            For private events, call:<br> <a href="tel:+380987291367">+38098 729 13 67</a> / <a href="tel:+380974587879">+38097 458 78 79</a><br> or use the contact form
+            <div class="events__popup-adapt phone-popup">call us</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts" data-popup="parent">
+        <h2 class="title contacts__title">contacts</h2>
+        <p class="bold-text text contacts__text">
+          You can leave us a message through the form below, or in any other way convenient for you.
+        </p>
+        <div class="container">
+          <form class="contacts__form form" id="contacts-form" action="#">
+            <div class="form__input-box">
+              <input class="contacts__form-input contacts-name" type="text" placeholder="Name">
+              <input class="contacts__form-input contacts-email" type="email" placeholder="Email">
+              <input class="contacts__form-input contacts-tel" type="tel" data-tel="input" placeholder="Phone number">
+            </div>
+            <textarea class="contacts__textarea" placeholder="Message"></textarea>
+            <div class="contacts__info-box">
+              <div class="contacts__info">
+                <div class="contacts__info-item">
+                  <svg class="contacts__svg map-marker" width="15" height="16" viewbox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.2954 1.3335C4.61373 1.3335 2.4318 3.72616 2.4318 6.6635C2.41417 10.9602 7.11058 14.5228 7.2954 14.6668C7.2954 14.6668 12.1766 10.9602 12.159 6.66683C12.159 3.72616 9.97707 1.3335 7.2954 1.3335ZM7.2954 9.3335C5.95183 9.3335 4.8636 8.14016 4.8636 6.66683C4.8636 5.1935 5.95183 4.00016 7.2954 4.00016C8.63897 4.00016 9.7272 5.1935 9.7272 6.66683C9.7272 8.14016 8.63897 9.3335 7.2954 9.3335Z" fill="#E8C300"/>
+                  </svg>
+                  <span> Hillsdale avenue 13,New-York</span>
+                </div>
+                <div class="contacts__info-item">
+                  <svg class="contacts__svg phone" width="10" height="11" viewbox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.99236 9.14688L7.70664 10.6853C7.51685 10.9201 7.26529 10.9996 7.0203 11C5.93685 10.9608 4.91274 10.3189 4.07188 9.65969C2.69167 8.4485 1.42526 6.94668 0.630445 5.13179C0.325604 4.37075 -0.0320839 3.39971 0.00209048 2.55025C0.00513783 2.2307 0.0765264 1.91708 0.263099 1.7111L1.54881 0.161011C1.81579 -0.112916 2.07398 -0.0182063 2.24483 0.300867L3.27918 2.6668C3.38805 2.94709 3.3256 3.24741 3.16317 3.44769L2.68949 4.01877C2.66025 4.06709 2.64163 4.12209 2.64116 4.18195C2.8228 5.03007 3.37307 5.81177 3.85919 6.34974C4.3453 6.88771 4.86782 7.61655 5.54608 7.7891C5.62991 7.8173 5.7326 7.82721 5.79259 7.75996L6.34362 7.08398C6.53357 6.91032 6.80783 6.82543 7.01062 6.96743H7.02029L8.88601 8.29608C9.1599 8.50317 9.18846 8.90339 8.99236 9.14688Z" fill="#E8C300"/>
+                  </svg>
+                  <a href="tel:+380987291367"> +38098 729 13 67</a>
+                </div>
+                <div class="contacts__info-item">
+                  <svg class="contacts__svg mail" width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.1033 2.66679C17.0481 2.66055 16.9924 2.66055 16.9372 2.66679H5.58877C5.51604 2.66802 5.44379 2.67998 5.37396 2.70235L11.2305 9.0979L17.1033 2.66679Z" fill="#E8C300"/>
+                    <path d="M17.7032 3.28418L11.802 9.72862C11.6501 9.89418 11.4447 9.98711 11.2306 9.98711C11.0164 9.98711 10.811 9.89418 10.6591 9.72862L4.8106 3.33307C4.79262 3.40553 4.78309 3.4802 4.78223 3.55529V12.4442C4.78223 12.6799 4.86763 12.906 5.01965 13.0727C5.17166 13.2394 5.37784 13.3331 5.59283 13.3331H16.9412C17.1562 13.3331 17.3624 13.2394 17.5144 13.0727C17.6664 12.906 17.7518 12.6799 17.7518 12.4442V3.55529C17.7486 3.46269 17.7322 3.37122 17.7032 3.28418ZM6.14809 12.4442H5.58472V11.8086L8.53125 8.60418L9.10273 9.23085L6.14809 12.4442ZM16.9331 12.4442H16.3657L13.4111 9.23085L13.9825 8.60418L16.9291 11.8086L16.9331 12.4442Z" fill="#E8C300"/>
+                  </svg>
+                  <a href="mailto:info@goldenegg.com">info@goldenegg.com</a>
+                </div>
+                <div class="contacts__popup phone-popup"><span>call us</span></div>
+              </div>
+              <button class="contacts__btn" type="submit">send a message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="map">
+        <h2>map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.9477285547778!2d-74.022699484723!3d41.00451727930113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2ef7ba963d79f%3A0xfaf81c2fbad21363!2zMTMgSGlsbHNkYWxlIEF2ZSwgSGlsbHNkYWxlLCBOSiAwNzY0Miwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1664339354201!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+    </main>
+    <footer class="footer">
+      &copy; Copyright <a href="https://AndrewDreamer.com" target="_blank"> AndrewDreamer </a>2022
+    </footer>
+  </div>
+  <!--wraper-->
+ 
+  <script src="libs/swiper.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
